@@ -280,9 +280,6 @@ class my_frame(wx.Frame):
         self.SetSizer(self.sizer)
         self.SetAutoLayout(1)
         self.sizer.Fit(self)
-
-
-
 if __name__=="__main__":
     app=wx.App()
     frame=my_frame()
